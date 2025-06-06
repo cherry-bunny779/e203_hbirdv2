@@ -122,7 +122,7 @@ module rvfi_wrapper (
 // Other signals
 logic test_mode;
 
-e203_cpu_top iDUT(
+e203_hbirdv2 iDUT(
   .inspect_pc(inspect_pc),
   .inspect_dbg_irq(inspect_dbg_irq),
   .inspect_mem_cmd_valid(inspect_mem_cmd_valid),
