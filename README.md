@@ -5,6 +5,8 @@ Diagram of RISC-V Formal Verification workflow under Yosys's RVFI:
 
 
 Diagram of Device Under Test in relation to the entire hbird-e203v2 system:
+
+
 ![rvfi-dut-cropped](https://github.com/user-attachments/assets/d56b944b-863e-4656-81b0-578d230b552e)
 
 
