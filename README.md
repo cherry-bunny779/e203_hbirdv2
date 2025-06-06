@@ -13,4 +13,5 @@ Diagram of Device Under Test in relation to the entire hbird-e203v2 system:
 In this branch, change the oldest wrapper inside-out as the following:
 
 
-![rvfi-flow-invert](https://github.com/user-attachments/assets/f9ac2d5a-ed24-4514-8123-67b30ff04ec0)
+
+![rvfi-flow-invert](https://github.com/user-attachments/assets/1237a688-b84c-4a64-9737-5d7f3d230ac2)
