@@ -1,0 +1,842 @@
+make: Entering directory '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks'
+sby insn_bgeu_ch0.sby
+sby insn_blt_ch0.sby
+sby insn_bltu_ch0.sby
+sby insn_bne_ch0.sby
+sby insn_c_add_ch0.sby
+sby insn_c_addi16sp_ch0.sby
+sby insn_c_addi4spn_ch0.sby
+sby insn_c_addi_ch0.sby
+sby insn_c_and_ch0.sby
+sby insn_c_andi_ch0.sby
+sby insn_c_beqz_ch0.sby
+sby insn_c_bnez_ch0.sby
+sby insn_c_j_ch0.sby
+sby insn_c_jal_ch0.sby
+sby insn_c_jalr_ch0.sby
+sby insn_c_jr_ch0.sby
+sby insn_c_li_ch0.sby
+sby insn_c_lui_ch0.sby
+sby insn_c_lw_ch0.sby
+sby insn_c_lwsp_ch0.sby
+sby insn_c_mv_ch0.sby
+sby insn_c_or_ch0.sby
+sby insn_c_slli_ch0.sby
+sby insn_c_srai_ch0.sby
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_add_ch0] Writing 'insn_c_add_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_add_ch0] Writing 'insn_c_add_ch0/src/insn_c_add_ch0.sv'.
+SBY 19:02:26 [insn_c_add_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_add_ch0/src/rvfi_macros.vh'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_andi_ch0] Writing 'insn_c_andi_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_andi_ch0] Writing 'insn_c_andi_ch0/src/insn_c_andi_ch0.sv'.
+SBY 19:02:26 [insn_c_andi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_andi_ch0/src/rvfi_macros.vh'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_j_ch0] Writing 'insn_c_j_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_add_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_add_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_j_ch0] Writing 'insn_c_j_ch0/src/insn_c_j_ch0.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_addi4spn_ch0] Writing 'insn_c_addi4spn_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_add_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_add_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_j_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_j_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_addi4spn_ch0] Writing 'insn_c_addi4spn_ch0/src/insn_c_addi4spn_ch0.sv'.
+SBY 19:02:26 [insn_c_add_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_add_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_addi4spn_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi4spn_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_add_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_add.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_add_ch0/src/insn_c_add.v'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_bgeu_ch0] Writing 'insn_bgeu_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_bgeu_ch0] Writing 'insn_bgeu_ch0/src/insn_bgeu_ch0.sv'.
+SBY 19:02:26 [insn_c_andi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_andi_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_bgeu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bgeu_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_j_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_j_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_andi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_andi_ch0/src/rvfi_testbench.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_jalr_ch0] Writing 'insn_c_jalr_ch0/src/defines.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_bne_ch0] Writing 'insn_bne_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_j_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_j_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_addi4spn_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi4spn_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_andi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_andi_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_jalr_ch0] Writing 'insn_c_jalr_ch0/src/insn_c_jalr_ch0.sv'.
+SBY 19:02:26 [insn_bne_ch0] Writing 'insn_bne_ch0/src/insn_bne_ch0.sv'.
+SBY 19:02:26 [insn_c_j_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_j_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_andi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_andi.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_andi_ch0/src/insn_c_andi.v'.
+SBY 19:02:26 [insn_bne_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bne_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_jalr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jalr_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_addi4spn_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi4spn_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_j_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_j.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_j_ch0/src/insn_c_j.v'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_bnez_ch0] Writing 'insn_c_bnez_ch0/src/defines.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_bltu_ch0] Writing 'insn_bltu_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_addi4spn_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi4spn_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_bnez_ch0] Writing 'insn_c_bnez_ch0/src/insn_c_bnez_ch0.sv'.
+SBY 19:02:26 [insn_bltu_ch0] Writing 'insn_bltu_ch0/src/insn_bltu_ch0.sv'.
+SBY 19:02:26 [insn_c_addi4spn_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_addi4spn.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi4spn_ch0/src/insn_c_addi4spn.v'.
+SBY 19:02:26 [insn_bltu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bltu_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_bnez_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_bnez_ch0/src/rvfi_macros.vh'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_and_ch0] Writing 'insn_c_and_ch0/src/defines.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_beqz_ch0] Writing 'insn_c_beqz_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_bgeu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bgeu_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_and_ch0] Writing 'insn_c_and_ch0/src/insn_c_and_ch0.sv'.
+SBY 19:02:26 [insn_c_beqz_ch0] Writing 'insn_c_beqz_ch0/src/insn_c_beqz_ch0.sv'.
+SBY 19:02:26 [insn_c_and_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_and_ch0/src/rvfi_macros.vh'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_mv_ch0] Writing 'insn_c_mv_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_bgeu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bgeu_ch0/src/rvfi_testbench.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_addi16sp_ch0] Writing 'insn_c_addi16sp_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_beqz_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_beqz_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_bne_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bne_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_jalr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jalr_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_bltu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bltu_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_mv_ch0] Writing 'insn_c_mv_ch0/src/insn_c_mv_ch0.sv'.
+SBY 19:02:26 [insn_c_bnez_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_bnez_ch0/src/rvfi_channel.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_lw_ch0] Writing 'insn_c_lw_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_addi16sp_ch0] Writing 'insn_c_addi16sp_ch0/src/insn_c_addi16sp_ch0.sv'.
+SBY 19:02:26 [insn_c_mv_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_mv_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_bgeu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bgeu_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_addi16sp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi16sp_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_bne_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bne_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_lw_ch0] Writing 'insn_c_lw_ch0/src/insn_c_lw_ch0.sv'.
+SBY 19:02:26 [insn_c_jalr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jalr_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_bltu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bltu_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_bnez_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_bnez_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_and_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_and_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_bne_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bne_ch0/src/rvfi_insn_check.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_jal_ch0] Writing 'insn_c_jal_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_bgeu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_bgeu.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bgeu_ch0/src/insn_bgeu.v'.
+SBY 19:02:26 [insn_c_jalr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jalr_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_bne_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_bne.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bne_ch0/src/insn_bne.v'.
+SBY 19:02:26 [insn_c_beqz_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_beqz_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_and_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_and_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_jal_ch0] Writing 'insn_c_jal_ch0/src/insn_c_jal_ch0.sv'.
+SBY 19:02:26 [insn_c_lw_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lw_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_bnez_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_bnez_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_mv_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_mv_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_jal_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jal_ch0/src/rvfi_macros.vh'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_lwsp_ch0] Writing 'insn_c_lwsp_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_addi16sp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi16sp_ch0/src/rvfi_channel.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_blt_ch0] Writing 'insn_blt_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_jalr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_jalr.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jalr_ch0/src/insn_c_jalr.v'.
+SBY 19:02:26 [insn_c_beqz_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_beqz_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_bltu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bltu_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_bnez_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_bnez.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_bnez_ch0/src/insn_c_bnez.v'.
+SBY 19:02:26 [insn_c_mv_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_mv_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_and_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_and_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_lwsp_ch0] Writing 'insn_c_lwsp_ch0/src/insn_c_lwsp_ch0.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_addi_ch0] Writing 'insn_c_addi_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_blt_ch0] Writing 'insn_blt_ch0/src/insn_blt_ch0.sv'.
+SBY 19:02:26 [insn_c_lwsp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lwsp_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_beqz_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_beqz_ch0/src/rvfi_insn_check.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_li_ch0] Writing 'insn_c_li_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_addi16sp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi16sp_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_addi_ch0] Writing 'insn_c_addi_ch0/src/insn_c_addi_ch0.sv'.
+SBY 19:02:26 [insn_c_li_ch0] Writing 'insn_c_li_ch0/src/insn_c_li_ch0.sv'.
+SBY 19:02:26 [insn_c_and_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_and.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_and_ch0/src/insn_c_and.v'.
+SBY 19:02:26 [insn_bltu_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_bltu.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_bltu_ch0/src/insn_bltu.v'.
+SBY 19:02:26 [insn_c_addi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_li_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_li_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_mv_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_mv_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_lw_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lw_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_jal_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jal_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_lw_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lw_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_jal_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jal_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_blt_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_blt_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_addi16sp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi16sp_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_beqz_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_beqz.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_beqz_ch0/src/insn_c_beqz.v'.
+SBY 19:02:26 [insn_c_mv_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_mv.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_mv_ch0/src/insn_c_mv.v'.
+SBY 19:02:26 [insn_c_lw_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lw_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_addi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_jal_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jal_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_addi16sp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_addi16sp.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi16sp_ch0/src/insn_c_addi16sp.v'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_or_ch0] Writing 'insn_c_or_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_jal_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_jal.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jal_ch0/src/insn_c_jal.v'.
+SBY 19:02:26 [insn_c_li_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_li_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_addi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_lw_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_lw.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lw_ch0/src/insn_c_lw.v'.
+SBY 19:02:26 [insn_c_addi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_li_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_li_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_or_ch0] Writing 'insn_c_or_ch0/src/insn_c_or_ch0.sv'.
+SBY 19:02:26 [insn_c_li_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_li_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_addi_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_addi.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_addi_ch0/src/insn_c_addi.v'.
+SBY 19:02:26 [insn_c_or_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_or_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_lwsp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lwsp_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_blt_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_blt_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_j_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_li_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_li.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_li_ch0/src/insn_c_li.v'.
+SBY 19:02:26 [insn_blt_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_blt_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_or_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_or_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_add_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_blt_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_blt_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_lwsp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lwsp_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_or_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_or_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_addi4spn_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_andi_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_or_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_or_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_blt_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_blt.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_blt_ch0/src/insn_blt.v'.
+SBY 19:02:26 [insn_c_lwsp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lwsp_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_or_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_or.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_or_ch0/src/insn_c_or.v'.
+SBY 19:02:26 [insn_c_lwsp_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_lwsp.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lwsp_ch0/src/insn_c_lwsp.v'.
+SBY 19:02:26 [insn_bltu_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_jalr_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_bne_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_j_ch0] base: starting process "cd insn_c_j_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_jr_ch0] Writing 'insn_c_jr_ch0/src/defines.sv'.
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_lui_ch0] Writing 'insn_c_lui_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_jr_ch0] Writing 'insn_c_jr_ch0/src/insn_c_jr_ch0.sv'.
+SBY 19:02:26 [insn_c_lui_ch0] Writing 'insn_c_lui_ch0/src/insn_c_lui_ch0.sv'.
+SBY 19:02:26 [insn_c_jal_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_addi16sp_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_beqz_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_lw_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_and_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_jr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jr_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_bgeu_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_bnez_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_lui_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lui_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_andi_ch0] base: starting process "cd insn_c_andi_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: starting process "cd insn_c_addi4spn_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_lui_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lui_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_jalr_ch0] base: starting process "cd insn_c_jalr_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_bne_ch0] base: starting process "cd insn_bne_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_lui_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lui_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_add_ch0] base: starting process "cd insn_c_add_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_li_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_lui_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lui_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_jr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jr_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_lui_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_lui.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_lui_ch0/src/insn_c_lui.v'.
+SBY 19:02:26 [insn_c_jr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jr_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_jr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jr_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_bltu_ch0] base: starting process "cd insn_bltu_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_lw_ch0] base: starting process "cd insn_c_lw_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_jr_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_jr.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_jr_ch0/src/insn_c_jr.v'.
+SBY 19:02:26 [insn_c_or_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_beqz_ch0] base: starting process "cd insn_c_beqz_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_blt_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_mv_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_addi_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_bnez_ch0] base: starting process "cd insn_c_bnez_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_jal_ch0] base: starting process "cd insn_c_jal_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_li_ch0] base: starting process "cd insn_c_li_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_bgeu_ch0] base: starting process "cd insn_bgeu_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_addi_ch0] base: starting process "cd insn_c_addi_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_lwsp_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_and_ch0] base: starting process "cd insn_c_and_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: starting process "cd insn_c_addi16sp_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_or_ch0] base: starting process "cd insn_c_or_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_mv_ch0] base: starting process "cd insn_c_mv_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_jr_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_blt_ch0] base: starting process "cd insn_blt_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_lwsp_ch0] base: starting process "cd insn_c_lwsp_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_jr_ch0] base: starting process "cd insn_c_jr_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_lui_ch0] engine_0: smtbmc boolector
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_srai_ch0] Writing 'insn_c_srai_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_srai_ch0] Writing 'insn_c_srai_ch0/src/insn_c_srai_ch0.sv'.
+SBY 19:02:26 [insn_c_srai_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_srai_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_srai_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_srai_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_srai_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_srai_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_srai_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_srai_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_srai_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_srai.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_srai_ch0/src/insn_c_srai.v'.
+SBY 19:02:26 [insn_c_lui_ch0] base: starting process "cd insn_c_lui_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+WARNING: Could not connect to jobserver specified in MAKEFLAGS, disabling parallel execution.
+SBY 19:02:26 [insn_c_slli_ch0] Writing 'insn_c_slli_ch0/src/defines.sv'.
+SBY 19:02:26 [insn_c_slli_ch0] Writing 'insn_c_slli_ch0/src/insn_c_slli_ch0.sv'.
+SBY 19:02:26 [insn_c_slli_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_macros.vh' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_slli_ch0/src/rvfi_macros.vh'.
+SBY 19:02:26 [insn_c_slli_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_channel.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_slli_ch0/src/rvfi_channel.sv'.
+SBY 19:02:26 [insn_c_slli_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_testbench.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_slli_ch0/src/rvfi_testbench.sv'.
+SBY 19:02:26 [insn_c_slli_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/checks/rvfi_insn_check.sv' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_slli_ch0/src/rvfi_insn_check.sv'.
+SBY 19:02:26 [insn_c_srai_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_slli_ch0] Copy '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/insns/insn_c_slli.v' to '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks/insn_c_slli_ch0/src/insn_c_slli.v'.
+SBY 19:02:26 [insn_c_slli_ch0] engine_0: smtbmc boolector
+SBY 19:02:26 [insn_c_srai_ch0] base: starting process "cd insn_c_srai_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_slli_ch0] base: starting process "cd insn_c_slli_ch0/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_beqz_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_add_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_beqz_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_add_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_beqz_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_beqz_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_beqz_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_add_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_beqz_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_add_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_beqz_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_beqz_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_add_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_add_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_add_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_add_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_beqz_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_add_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_jalr_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_andi_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_j_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_jalr_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_andi_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_j_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_andi_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_andi_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_jalr_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_jalr_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_andi_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_andi_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_jalr_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_jalr_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_andi_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_andi_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_jalr_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_jalr_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_bne_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_andi_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_jalr_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_j_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_j_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_j_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_j_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_j_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_j_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_j_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_bne_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_lw_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_li_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_bne_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_lw_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_bne_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_bne_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bne_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bne_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_bne_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_bne_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_li_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_addi4spn_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_addi4spn_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_addi4spn_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_addi4spn_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_addi4spn_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_lw_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_lw_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_lw_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_addi4spn_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_lw_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_lw_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_lw_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_lw_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_li_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_li_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_li_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_li_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_li_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_li_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_bgeu_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_li_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_bnez_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_blt_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_bgeu_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_bnez_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_blt_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_bgeu_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_bgeu_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_bgeu_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_addi_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_bgeu_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bgeu_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_bgeu_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_bnez_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_bnez_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_bnez_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bgeu_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_bnez_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_bnez_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_bnez_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_blt_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_blt_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_blt_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_bnez_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_blt_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_blt_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_blt_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_blt_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_addi_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_bltu_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_addi_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_addi_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_addi_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_addi_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bltu_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_addi_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_addi_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_addi_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_jal_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_addi16sp_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_addi16sp_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_addi16sp_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_addi16sp_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_addi16sp_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_addi16sp_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_mv_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_jal_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_mv_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_jal_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_jal_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_jal_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_jal_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_jal_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_jal_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_jal_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_mv_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_mv_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_mv_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_mv_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_mv_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_mv_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_mv_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_bltu_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_bltu_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_bltu_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bltu_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_bltu_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_bltu_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_bltu_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_and_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_and_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_lwsp_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_lwsp_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_lwsp_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_lwsp_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_lwsp_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_lwsp_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_lwsp_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_and_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_and_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_and_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_and_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_and_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_and_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_and_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_jr_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_jr_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_jr_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_jr_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_jr_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_jr_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_jr_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_jr_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_lui_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_slli_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_jr_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_lui_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_slli_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_lui_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_lui_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_lui_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_lui_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_lui_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_lui_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_lui_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_or_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_or_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_slli_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_slli_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_slli_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_slli_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_slli_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_slli_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_slli_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_or_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_or_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_or_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_or_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_or_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_or_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_or_ch0] DONE (ERROR, rc=16)
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_valid' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:346.5-346.99.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_order' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:347.5-347.54.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_insn' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:349.5-349.64.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_trap' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:350.5-350.67.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_halt' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:351.5-351.72.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_intr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:352.5-352.112.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_mode' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:353.5-353.29.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_ixl' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:354.5-354.21.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_rs1_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:355.5-355.72.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_rs2_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:356.5-356.72.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_rs1_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:357.5-357.71.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_rs2_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:358.5-358.78.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_rd_addr' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:359.5-359.83.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_rd_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:360.5-360.83.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_pc_rdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:362.5-362.32.
+SBY 19:02:26 [insn_c_srai_ch0] base: Warning: wire '\rvfi_pc_wdata' is assigned in a block at /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:363.5-364.97.
+SBY 19:02:26 [insn_c_srai_ch0] base: /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv:7: ERROR: Incompatible re-declaration of wire \ext2itcm_icb_rsp_rdata.
+SBY 19:02:26 [insn_c_srai_ch0] base: finished (returncode=1)
+SBY 19:02:26 [insn_c_srai_ch0] base: task failed. ERROR.
+SBY 19:02:26 [insn_c_srai_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_srai_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 19:02:26 [insn_c_srai_ch0] summary: engine_0 (smtbmc boolector) did not return a status
+SBY 19:02:26 [insn_c_srai_ch0] summary: engine_0 did not produce any traces
+SBY 19:02:26 [insn_c_srai_ch0] DONE (ERROR, rc=16)
+make: Leaving directory '/home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/checks'
