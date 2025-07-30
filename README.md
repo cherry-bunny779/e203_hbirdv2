@@ -61,7 +61,9 @@ Verification Procedure
     sby -f ./checks/<name_of_test>.sby
     ```
 
-##Known Issues [To-Do]
+Known Issues [To-Do]
+-----
+
 1. Incorrect "depth" and "skip" fields, see step 4 in Verification Procedure
 
     This may be caused by how the _rvfi_valid_ signal is generated in the wrapper structure. Note that the 'depth' field is most relevent since 'skip' effectively only speeds up the verification process.
