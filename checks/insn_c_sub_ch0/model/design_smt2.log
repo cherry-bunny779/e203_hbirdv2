@@ -1,0 +1,81 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.48+47 (git sha1 cbb95cb51, g++ 11.4.0-2ubuntu1~20.04 -fPIC -O3)
+
+-- Executing script file `design_smt2.ys' --
+
+1. Executing RTLIL frontend.
+Input filename: design_prep.il
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `rvfi_testbench'. Setting top module to rvfi_testbench.
+
+2.1. Analyzing design hierarchy..
+Top module:  \rvfi_testbench
+
+2.2. Analyzing design hierarchy..
+Top module:  \rvfi_testbench
+Removed 0 unused modules.
+Module rvfi_testbench directly or indirectly contains formal properties -> setting "keep" attribute.
+
+3. Executing FORMALFF pass.
+
+4. Executing DFFUNMAP pass (unmap clock enable and synchronous reset from FFs).
+
+5. Printing statistics.
+
+=== rvfi_testbench ===
+
+   Number of wires:               8568
+   Number of wire bits:          74657
+   Number of public wires:        6792
+   Number of public wire bits:   59990
+   Number of ports:                  2
+   Number of port bits:              2
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4268
+     $add                           23
+     $and                         1292
+     $anyinit                      205
+     $anyseq                       438
+     $assert                        33
+     $assume                         3
+     $eq                           294
+     $ff                             1
+     $initstate                      1
+     $le                             1
+     $logic_and                      7
+     $logic_not                     62
+     $lt                             3
+     $mem_v2                         2
+     $mux                          676
+     $ne                             2
+     $not                          230
+     $or                           668
+     $pmux                           6
+     $reduce_and                     1
+     $reduce_bool                    1
+     $reduce_or                     16
+     $scopeinfo                    279
+     $shiftx                         6
+     $shl                            3
+     $shr                            2
+     $sub                            1
+     $xor                           12
+
+6. Executing SMT2 backend.
+
+6.1. Executing BMUXMAP pass.
+
+6.2. Executing DEMUXMAP pass.
+Creating SMT-LIBv2 representation of module rvfi_testbench.
+
+End of script. Logfile hash: 76e9585694, CPU: user 0.43s system 0.03s, MEM: 50.89 MB peak
+Yosys 0.48+47 (git sha1 cbb95cb51, g++ 11.4.0-2ubuntu1~20.04 -fPIC -O3)
+Time spent: 52% 2x read_rtlil (0 sec), 44% 2x write_smt2 (0 sec), ...
