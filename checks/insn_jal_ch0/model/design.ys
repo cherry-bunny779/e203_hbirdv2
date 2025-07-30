@@ -1,9 +1,0 @@
-# running in insn_jal_ch0/src/
-read -sv insn_jal_ch0.sv /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/wrapper.sv /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/e203_hbirdv2.v /home/fuqizhang/formal_verification/riscv-formal-yosys/riscv-formal/cores/e203_hbirdv2/../../cores/e203_hbirdv2/rtl/e203/general/*.v
-prep -flatten -nordff -top rvfi_testbench
-chformal -early
-
-hierarchy -smtcheck
-rename -witness
-write_jny -no-connections ../model/design.json
-write_rtlil ../model/design.il
