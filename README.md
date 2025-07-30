@@ -1,6 +1,9 @@
-#e203_hbirdv2 RVFI Wrapper
+e203_hbirdv2 RVFI Wrapper
+===============================
 
-##About
+About
+-----
+
 This repository hosts the project to make an RISC-V Formal Verification interface for the Hummingbirdv2 E203 Core and SoC opensourced by [Nuclei System Technology](www.nucleisys.com). You can find the parent repository [here](https://github.com/riscv-mcu/e203_hbirdv2).
 
 ##Verification Procedure
@@ -15,6 +18,7 @@ This repository hosts the project to make an RISC-V Formal Verification interfac
 ```
 cd riscv-formal/cores/
 ```
+
     and clone this github repository.
 
 3. Generate Checks
@@ -23,6 +27,7 @@ cd riscv-formal/cores/
 ```
 cd e203_hbirdv2
 ```
+
     and run the following command to generate the RVFI checks
 ```
 python3 ../../checks/genchecks.py
@@ -42,11 +47,13 @@ python3 process_sby.py
 ```
 cd ..
 ```
+
     and use the following commands to run RVFI Tests
     All Tests:
 ```
 make -C checks -j$(nproc)
 ```
+
     A specific Test:
 ```
 sby -f ./checks/<name_of_test>.sby
