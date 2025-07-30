@@ -9,11 +9,11 @@ This repository hosts the project to make an RISC-V Formal Verification interfac
 Verification Procedure
 -----
 
-1. Set up RISC-V Formal Verification Framework (RVFI)
+**1. Set up RISC-V Formal Verification Framework (RVFI)**
     
     Follow this [link](https://github.com/YosysHQ/riscv-formal) to Yosys' RVFI homepage and set up the verification environment.
 
-2. Prepare the files
+**2. Prepare the files**
 
     Navigate to the following directory
 
@@ -23,7 +23,7 @@ Verification Procedure
 
     and clone this github repository.
 
-3. Generate Checks
+**3. Generate Checks**
 
     Navigate to the following directory
     ```
@@ -35,7 +35,7 @@ Verification Procedure
     python3 ../../checks/genchecks.py
     ```
 
-4. Pre-process the generated tests
+**4. Pre-process the generated tests**
 
     For reasons yet obscure [To-Do], the "depth" and "skip" fields in the .sby files need to be corrected for the generated tests. They are off by +1. As a temporary solution, copy and run the preprocessing scipt. Make sure you are in the directory /riscv-formal/cores/e203_hbird
     ```
@@ -43,7 +43,7 @@ Verification Procedure
     python3 process_sby.py
     ```
 
-5. Compile and Run RVFI Tests
+**5. Compile and Run RVFI Tests**
 
     Navigate to /riscv-formal/cores/e203_hbird
     ```
@@ -66,7 +66,7 @@ Known Issues [To-Do]
 
 1. Incorrect "depth" and "skip" fields, see step 4 in Verification Procedure
 
-    This may be caused by how the _rvfi_valid_ signal is generated in the wrapper structure. Note that the 'depth' field is most relevent since 'skip' effectively only speeds up the verification process.
+    This may be caused by how the **_rvfi_valid_** signal is generated in the wrapper structure. Note that the 'depth' field is most relevent since 'skip' effectively only speeds up the verification process.
 
 2. Unable to run "unique" and "liveness" tests
 
