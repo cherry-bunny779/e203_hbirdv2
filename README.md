@@ -69,7 +69,7 @@ make: Entering directory '/riscv-formal/cores/@core@/checks'
 make: Nothing to be done for 'all'.
 make: Leaving directory '/riscv-formal/cores/@core@/checks'
 ```
-To fix this, repeat step 3 to regenerate the checks again.
+To fix this, repeat step 3 to regenerate the checks.
     
 
 Known Issues [To-Do]
