@@ -61,6 +61,17 @@ Verification Procedure
     sby -f ./checks/<name_of_test>.sby
     ```
 
+Notes
+-----
+Sometimes "make" can fail to run, as shown below, due to reasons yet unkonwn.
+```
+make: Entering directory '/riscv-formal/cores/@core@/checks'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/riscv-formal/cores/@core@/checks'
+```
+To fix this, repeat step 3 to regenerate the checks again.
+    
+
 Known Issues [To-Do]
 -----
 
