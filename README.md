@@ -71,3 +71,11 @@ Known Issues [To-Do]
 2. Unable to run "unique" and "liveness" tests
 
     For the purpose of the project, this is fine as we only need to ensure all of the instruction and pc test results are generated.
+
+3. Redundant RTL Data
+
+   To simplify manual signal routing though down->top submodules that concieve the RVFI interface, relevant submodules have been merged into a single file: e203_hbirdv2.v. Could use some clean-up.
+
+4. Control and Status Registers (CSRs) not monitored
+
+   RVFI supports generating CSRs tests, but these tests are skipped for the verification of this core 
