@@ -4,7 +4,7 @@ e203_hbirdv2 RVFI Wrapper
 About
 -----
 
-This repository hosts the project to make an RISC-V Formal Verification interface for the Hummingbirdv2 E203 Core and SoC opensourced by [Nuclei System Technology](www.nucleisys.com). You can find the parent repository [here](https://github.com/riscv-mcu/e203_hbirdv2).
+This repository hosts a project to make a RISC-V Formal Verification interface for the Hummingbirdv2 E203 Core and SoC opensourced by [Nuclei System Technology](www.nucleisys.com). You can find the parent repository [here](https://github.com/riscv-mcu/e203_hbirdv2).
 
 Verification Procedure
 -----
