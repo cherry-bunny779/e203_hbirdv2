@@ -72,6 +72,7 @@ make: Leaving directory '/riscv-formal/cores/@core@/checks'
 ```
 To fix this, repeat step 3 to regenerate the checks.
     
+Make sure your __Python version is >= 3.9__, or you will likely encounter _TypeError: 'type' object is not subscriptable_ when attempting to generate checks ins step 3 above.
 
 Known Issues [To-Do]
 -----
